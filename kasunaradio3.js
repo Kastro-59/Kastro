@@ -907,7 +907,7 @@ break;
                 var t = Ne * me / 100,
                     i = me / 2 - Pe - t - 4 * t;
                 e("#" + n + "coverwrapper").css({
-                    border: "solid " + 2 * t + "px rgba(" + At(M).r + ", " + At(M).g + ", " + At(M).b + ", 0.2)",
+                    
                     top: me / 4 - i / 2 - t + "px",
                     left: ge / 2 - i / 2 + "px",
                     width: i + "px",
