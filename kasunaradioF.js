@@ -158,7 +158,7 @@
                             a.id = n + "coverwrapper", t.appendChild(a), e("#" + n + "coverwrapper").css({
                                 position: "absolute",
                                 overflow: "hidden",
-                                background: "rgba(" + At(M).r + ", " + At(M).g + ", " + At(M).b + ", 0.1)",
+                                background: "transparent",
                                 "-webkit-box-sizing": "border-box",
                                 "-moz-box-sizing": "border-box",
                                 "box-sizing": "border-box"
