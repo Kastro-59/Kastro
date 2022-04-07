@@ -109,8 +109,8 @@
                         top: "0px",
                         height: "100%",
                         width: "100%",
-                        "-webkit-filter": "blur(1px)",
-                        filter: "blur(1px)",
+                        "-webkit-filter": "blur(10px)",
+                        filter: "blur(10px)",
                         opacity: "0.1"
                     });
                     var a = document.createElement("div");
@@ -156,7 +156,7 @@
                         function(t) {
                             var a = document.createElement("div");
                             a.id = n + "coverwrapper", t.appendChild(a), e("#" + n + "coverwrapper").css({
-                                position: "relative",
+                                position: "absolute",
                                 overflow: "hidden",
                                 background: "transparent",
                                 "-webkit-box-sizing": "border-box",
@@ -166,7 +166,7 @@
                                 "" != ze && window.open(ze)
                             }).kasunaradiodisableSelection(), (i = document.createElement("div")).id = n + "coverwrapper1", a.appendChild(i), e("#" + n + "coverwrapper1").css({
                                 position: "absolute",
-                                left: "25px",
+                                left: "26px",
                                 top: "25px",
                                 height: "80px",
                                 width: "80px",
@@ -177,7 +177,7 @@
                                 "background-size": "cover"
                             }), (i = document.createElement("div")).id = n + "coverwrapper2", a.appendChild(i), e("#" + n + "coverwrapper2").css({
                                 position: "absolute",
-                                left: "25px",
+                                left: "26px",
                                 top: "25px",
                                 height: "80px",
                                 width: "80px",
@@ -187,9 +187,9 @@
                                 "background-repeat": "no-repeat",
                                 "background-size": "cover"
                             }), "circle" == j && (e("#" + n + "coverwrapper, #" + n + "coverwrapper1, #" + n + "coverwrapper2").css({
-                                "border-radius": "3px"
+                                "border-radius": "10%"
                             }), e("#" + n + "backgroundimage, #" + n + "backgroundimage1, #" + n + "backgroundimage2").css({
-                                "border-radius": "3px"
+                                "border-radius": "10%"
                             }))
                         }(a), (i = document.createElement("div")).id = n + "iconlive", a.appendChild(i), e("#" + n + "iconlive").css({
                             position: "absolute",
@@ -907,9 +907,9 @@ break;
                 var t = Ne * me / 100,
                     i = me / 2 - Pe - t - 4 * t;
                 e("#" + n + "coverwrapper").css({
-                    border: "solid " + 2 * t + "px rgba(" + At(M).r + ", " + At(M).g + ", " + At(M).b + ", 0.2)",
-                    top: me / 4 - i / 2 - t + "px",
-                    left: ge / 2 - i / 2 + "px",
+                    
+                    top:  "0px",
+                    left:"25px",
                     width: i + "px",
                     height: i + "px"
                 }), e("#" + n + "backgroundimage").css({
@@ -1183,10 +1183,10 @@ break;
                     "real" == O && (Ce = new Uint8Array(c.frequencyBinCount), c.getByteFrequencyData(Ce))
                 } catch (e) {}
                 "animated" == j && e("#" + n + "smallcoverwrapper, #" + n + "smallcoverwrapper1, #" + n + "smallcoverwrapper2, #" + n + "coverwrapper, #" + n + "coverwrapper1, #" + n + "coverwrapper2").css({
-                    "border-top-left-radius": 50 - 50 * Ae + "%",
-                    "border-top-right-radius": 50 - 50 * ye + "%",
-                    "border-bottom-left-radius": 50 - 50 * Ae + "%",
-                    "border-bottom-right-radius": 50 - 50 * ye + "%"
+                    "border-top-left-radius": 50 - 50 * Ae - "%",
+                    "border-top-right-radius": 50 - 50 * ye - "%",
+                    "border-bottom-left-radius": 50 - 50 * Ae - "%",
+                    "border-bottom-right-radius": 50 - 50 * ye - "%"
                 });
                 try {
                     switch (D) {
