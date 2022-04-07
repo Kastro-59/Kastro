@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>CDFull</title>
+<title>CDFinal</title>
 <style>
  body { margin: 0; }
  div {
@@ -18,28 +18,48 @@
 	height:364px;
 	background-size: cover;
  }
-   			/*!
- * 3D Falling Leaves
- */
 
-  .october-leaf {
-     position: absolute;
-     background-color: transparent;
-     background-image: url('https://kastro-59.github.io/Perla/notas.png');
-     width:420px; 
-     height:364px;
-     background-size: cover;
-     -webkit-transform: translateZ(0);
-     -moz-transform: translateZ(0);
-     transform: translateZ(0);
+  .disc{
+  width: 364px;            
+  height: 364px;          
+  background: url(https://i.imgur.com/0XnIpEj.png)center no-repeat;
+  background-size: cover;
+  position: absolute;
+  z-index: -10;
+  overflow: hidden;
+  left: 45px;
+  top: 0px;
+    -webkit-animation: spin 6s linear infinite;
+    -moz-animation: spin 6s linear infinite;
+   animation: spin 6s linear infinite;
+  z-index: -6;
+  
+   }
+   }
+
+    @-moz-keyframes spin {
+    100% {
+     -moz-transform: rotate(360deg);
+   }
+   }
+   @-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
   }
+   }
+   @keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+   }
    .data {
      position: absolute;
      font-family: 'Chela One', cursive;
      font-size: 15px;
-     left: 210px;
-     top: 20px;
-     color: #fa225b;
+     left: 120px;
+     top: 15px;
+     color: #6a0311;
      width: 236px;
      height: 19px;
      z-index: 16;
@@ -47,19 +67,17 @@
   }
    #Clock {
      position: absolute;
-     top: 40px;
-     left: 300px;
+     top: 35px;
+     left: 200px;
      width: 43px;
-     color: #fa225b;
+     color: #6a0311;
      font-family: 'Chela One', cursive;
      font-size: 15px;
   }
 
 </style>
 <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
-<script src="https://kastro-59.github.io/repros/rotate3Di.js"></script>
-<script src="https://kastro-59.github.io/repros/rotate3Di.min.js"></script>
-<script src="https://kastro-59.github.io/Kastro/kasunaradioF.js" ></script>
+<script src="https://kastro-59.github.io/Kastro/kasunaradioFinal.js" ></script>
 <center>
  <style> 
    <!-- 
@@ -69,8 +87,11 @@
 </center> 
 <div align="center">
  <div class="player" id="miplayer">
- <div class="a" style="background-image:url(https://i.imgur.com/LHV3qya.png)">
+ <div class="a" style="background-image:url(https://i.imgur.com/gUctS20.png)">
+
  <div id="kastroplayer" style="width:420px; height:364px;background: transparent url() bottom / cover no-repeat;">loading...</div>	
+ 
+ <div class="disc">  
 </div>
 </head>
 <body>
@@ -135,35 +156,6 @@ document.write("" + textosemana[diasemana] + " " + diames + " de " + textomes[me
 
 </script><br><br><br><br><br><br><br>
 
-
-<script src="https://kastro-59.github.io/repros/jquery.ripples.js"></script>
-  <script>
-$(document).ready(function() {
-  try {
-    $('.a,.b,.c').ripples({
-      resolution: 256,
-      dropRadius: 20,
-      perturbance: 0.04
-    });
-  }
-  catch (e) {
-    $('.error').show().text(e);
-  }
-});
-</script>
-<script> jQuery(document).octoberLeaves() </script>
- <script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-36251023-1']);
-  _gaq.push(['_setDomainName', 'jqueryscript.net']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();</script>
 
   <script>
   $("#kastroplayer").kasunaradio({
