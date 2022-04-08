@@ -165,7 +165,7 @@
                                 "" != ze && window.open(ze)
                             }).kasunaradiodisableSelection(), (i = document.createElement("div")).id = n + "coverwrapper1", a.appendChild(i), e("#" + n + "coverwrapper1").css({
                                 position: "absolute",
-                                left: "46px",
+                                left: "76px",
                                 top: "35px",
                                 height: "80px",
                                 width: "80px",
@@ -176,7 +176,7 @@
                                 "background-size": "cover"
                             }), (i = document.createElement("div")).id = n + "coverwrapper2", a.appendChild(i), e("#" + n + "coverwrapper2").css({
                                 position: "absolute",
-                                left: "46px",
+                                left: "76px",
                                 top: "35px",
                                 height: "80px",
                                 width: "80px",
