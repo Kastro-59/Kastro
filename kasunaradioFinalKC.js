@@ -155,7 +155,7 @@
                         function(t) {
                             var a = document.createElement("div");
                             a.id = n + "coverwrapper", t.appendChild(a), e("#" + n + "coverwrapper").css({
-                                position: "absolute",
+                                position: "relative",
                                 overflow: "hidden",
                                 background: "transparent",
                                 "-webkit-box-sizing": "border-box",
@@ -166,7 +166,7 @@
                             }).kasunaradiodisableSelection(), (i = document.createElement("div")).id = n + "coverwrapper1", a.appendChild(i), e("#" + n + "coverwrapper1").css({
                                 position: "absolute",
                                 left: "0px",
-                                top: "85px",
+                                top: "90px",
                                 height: "80px",
                                 width: "80px",
                                 overflow: "hidden",
@@ -177,7 +177,7 @@
                             }), (i = document.createElement("div")).id = n + "coverwrapper2", a.appendChild(i), e("#" + n + "coverwrapper2").css({
                                 position: "absolute",
                                 left: "0px",
-                                top: "85px",
+                                top: "90px",
                                 height: "80px",
                                 width: "80px",
                                 overflow: "hidden",
