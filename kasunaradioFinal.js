@@ -769,7 +769,7 @@
 							
 case "radiozeno":
 ! function() {
-var t = "https://zenoplay.zenomedia.com/api/zenofm/nowplaying/" + zn +"?_="+new Date() ;
+var t = "https://zenoplay.zenomedia.com/api/zenofm/nowplaying/" + zn +"?_="+Math.random() ;
 e.ajax({
 dataType: "text",
 method: "GET",
