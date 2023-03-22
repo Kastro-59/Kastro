@@ -17,7 +17,6 @@ header('Pragma: no-cache');
 header('Expires: 0'); 
 
 
-
 if (isset($_POST['url'])) {
 	if ($_POST['url'] != "") {
 		$output = useCurl($_POST['url']);
