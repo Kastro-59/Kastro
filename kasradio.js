@@ -331,7 +331,7 @@ position: "absolute",
 border: "2px solid " + m
 }).sodahdisableSelection();
 "big" == y && ("circle" == Ha && a("#" + b + "imagecontainer").css({
-"border-radius": "50%"
+"border-radius": "30%"
 }), a("#" + b + "imagecontainer").css({
 overflow: "hidden",
 "background-color": "transparent",
@@ -344,9 +344,9 @@ a("#" + b + "imagehit1").css({
 position: "absolute",
 "z-index": "21",
 top: "5px",
-left: "22px",
-height: "120px",
-width: "120px",
+left: "30px",
+height: "90px",
+width: "90px",
 cursor: "pointer",
 padding: "0",
 margin: "0"
@@ -360,9 +360,9 @@ a("#" + b + "imagehit2").css({
 position: "absolute",
 "z-index": "20",
 top: "5px",
-left: "22px",
-height: "120px",
-width: "120px",
+left: "30px",
+height: "90px",
+width: "90px",
 cursor: "pointer",
 padding: "0",
 margin: "0"
@@ -370,13 +370,13 @@ margin: "0"
 "" != Y && window.open(Y)
 }).fadeOut(0).sodahdisableSelection();
 "big" == y && ("circle" == Ha && a("#" + b + "imagehit1, #" + b + "imagehit2").css({
-"border-radius": "50%"
+"border-radius": "30%"
 }), a("#" + b + "imagehit1, #" +
 b + "imagehit2").css({
 "box-sizing": "border-box",
 "-moz-box-sizing": "border-box",
 "-webkit-box-sizing": "border-box",
-border: "20px solid rgba(" + p(J).r + ", " + p(J).g + ", " + p(J).b + ", 0.25)"
+border: "5px solid rgba(" + p(J).r + ", " + p(J).g + ", " + p(J).b + ", 0.25)"
 }))
 } else a("#" + b + "volumesetcontainer").css({
 "background-color": m
