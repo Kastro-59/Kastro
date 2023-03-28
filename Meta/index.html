@@ -1,111 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Metadatos</title>
-    <style>
+		<title></title>
+		 <style type="text/css">
+ body {
+  background-color: transparent;
+ }
+ </style>
+     
+ <div>	
 
-    </style>
+	<iframe src="https://kastro-59.github.io/Kastro/Meta/data.html?name=" width="100%" height="100%" frameborder="0"></iframe>
+ </div>
 </head>
+
 <body>
- <div class="current-song">
-        Current song: <span class="name">[...]</span>
-    </div>
+ 
 
-    <div class="chat-name"></div>
+</body>
 
-    <script>
-        var chatName = false
-        var radioIP = false
-        var isFailed = false;
-        var totalFails = 0;
-        var string = window.location.search;
-        var params = new URLSearchParams(string);
-
-        const timeoutPromise = (timeout, err, promise) => {
-            return new Promise(function(resolve, reject) {
-                promise.then(resolve, reject);
-                setTimeout(reject.bind(null,err), timeout);
-            });
-        }
-
-        const setChatName = () => {
-            document.querySelector('.chat-name').innerHTML = chatName;
-        }
-
-        const setSongName = (song) => {
-            document.querySelector('.current-song > .name').innerHTML = song;
-        }
-
-        const updateSong = () => {
-            if (true === isFailed || totalFails >= 3) {
-                return;
-            }
-
-            timeoutPromise(
-                3000, // 3 seconds
-                new Error('TimeOut'), 
-                fetch(`https://api2.xatblog.net/currentsong?stream=${"https://stream.zeno.fm/emertvc73mruv"}`, {
-                    method: 'GET',
-                    headers: {
-                        'Accept': 'application/json',
-                    },
-                })
-                .then(response => response.json())
-                .then(response => { 
-                    let songName = response.message;
-                    if (400 == response.code) {
-                        isFailed = true;
-                        setSongName('Not available');
-                        console.log('Radio Not Found');
-                    } else if (false === songName) {
-                        ++totalFails;
-                    } else {
-                        setSongName(songName);
-                    }
-                })
-            )
-            .then()
-            .catch(err => {
-                isFailed = true;
-                setSongName('Not available');
-                console.log('Timed Out');
-            })
-        }
-
-        const initialize = () => {
-            let name = params.get('name');
-
-            if (undefined == name) {
-                document.querySelector('.no-name').style.display = 'none';
-                document.querySelector('.chat-name').style.display = 'none';
-                document.querySelector('.current-song').style.display = 'block';
-                return;
-            }
-
-            fetch(`https://xatblog.net/api/chatinfo/${name}?json`, {
-                method: 'GET',
-                headers: {
-                    'Accept': 'application/json',
-                },
-            })
-            .then(response => response.json())
-            .then(response => { 
-                let data = response.result;
-                chatName = data.name;
-                radioIP = data.radio;
-                
-                updateSong();
-                setInterval(
-                    updateSong, 
-                    (1000 * 10) // every 45 seconds
-                );
-            })
-        }
-
-        initialize();
-    </script>
-<script>(function(){var js = "window['__CF$cv$params']={r:'7af129c73f511ba6',m:'4YcKTQEAqZZiVUrXVn3gu4zau0ncRfFrIbyWNaE.5Bk-1680020035-0-AXiOnXK7n3kBf5CbVs6rSNkGvg4bLFo4TyTQ1ss4SZew3xQ4iZCwL4v1pusVUoSQtxnH1nBgYLUXcovre9bFlzt9CkDlUJZw67PYOl/4bJcWG2w6bvDt7rDEAjZGltJNoih4WXHfTmrA/RBsO9o3YUGRb8dt/jBjMI4ObUS0ImV8',s:[0x0333e757c1,0x0d36f72af9],u:'https://api2.xatblog.net/cdn-cgi/challenge-platform/h/b'};var now=Date.now()/1000,offset=14400,ts=''+(Math.floor(now)-Math.floor(now%offset)),_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='https://api2.xatblog.net/cdn-cgi/challenge-platform/h/b/scripts/alpha/invisible.js?ts='+ts,document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.nonce = '';_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></body>
-</html>
+</html> 
