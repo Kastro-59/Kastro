@@ -1,7 +1,7 @@
  $("#kastroplayer").kasunaradio({
   userinterface: "big",
   backgroundcolor: "transparent",
-  fontcolor: "#ffffff",
+  fontcolor: "#6a0311",
   hightlightcolor: "#fa225b",
   fontname: "Saira Condensed",
   googlefont: "Saira+Condensed:wght@100",
