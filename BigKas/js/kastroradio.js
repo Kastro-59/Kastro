@@ -1,4 +1,4 @@
-  $("#kastroplayer").kasunaradio({
+ $("#kastroplayer").kasunaradio({
   userinterface: "big",
   backgroundcolor: "transparent",
   fontcolor: "#ffffff",
@@ -7,11 +7,11 @@
   googlefont: "Saira+Condensed:wght@100",
   fontratio: "0.5",
   radioname: "Radio KAS",
-  scroll: "true",
-  coverimage: "false",
+  scroll: "false",
+  coverimage: "fake",
   usevisualizer: "fake",
   coverstyle: "animated",
-  visualizertype: "4",
+  visualizertype: "7",
   multicolorvisualizer: "true",
     color1: "#f6f6f6",
     color2: "#323edd",
@@ -20,7 +20,7 @@
   itunestoken: "1000lIPN",
   metadatatechnic: "",
   ownmetadataurl: "",
-  streamurl: "https://stream.zeno.fm/emertvc73mruv",
+  streamurl: "https://stream.zeno.fm/emertvc73mruv.aac",
   streamtype: "radiozeno",
   icecastmountpoint: "/radio.mp3",
   radionomyid: "",
@@ -36,5 +36,5 @@
   debug: "false",
   usestreamcorsproxy: "false", 
   corsproxy: "",
-  autoplay:"false",
+  autoplay:"true",
     });
