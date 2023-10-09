@@ -59,7 +59,7 @@ body {
     height: 100%;
     color: transparent;
     padding: 5px;
-    position: relative;
+    position: absolute;
     z-index: 3;
     margin-top: 25px;
 }
