@@ -50,61 +50,53 @@
 	width: 330px;
 	height: 330px;
 	background: url()center no-repeat;
+	opacity: 0.2;
 	background-size: cover;
 	position: absolute;
 	border-radius: 100%;
 	-webkit-box-shadow: 2px 3px 30px 0px rgba();
 	-moz-box-shadow: 2px 3px 30px 0px rgba();
 	box-shadow: 2px 3px 30px 0px rgba();
-	z-index: -5;
+	z-index: -14;
 	overflow: hidden;
-	left: 236px;
+	right: 5px;
 	top: 13px;
-	box-shadow: 0 0 5px #,
-   0 0 25px #,
-   0 0 50px #,
-   0 0 200px #;
+	    -webkit-animation: spin 6s linear infinite;
+    -moz-animation: spin 6s linear infinite;
+    animation: spin 6s linear infinite;
+    -webkit-transition: all 500ms;
+    -moz-transition: all 500ms;
+    transition: all 500ms;
+	
    }
-   a:nth-child(1){
-   filter: hue-rotate(270deg);
-   }
-   a:nth-child(2){
-   filter: hue-rotate(110deg);
-   }
-   a span{
-   position: absolute;
-   display: block;
-   }
-   a span:nth-child(1){
-   top: 0;
-   left: 0;
-   width: 100%;
-   height: 2px;
-   background: linear-gradient(90deg,transparent,#);
-   animation: animate1 1s linear infinite;
-   }
-   @keyframes animate1{
-   0%{
-   left: -100%;
-   }
-   50%,100%{
-   left: 100%;
-   }
-   }
+   .is-playing .album-cover {
+    right: 215px;
+}
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
   .disc{
 	width: 332px;            
 	height: 332px;          
 	background: url(https://kastro-59.github.io/star/CD/q4wyeNb.png)center no-repeat;
 	background-size: cover;
 	position: absolute;
-	z-index: -10;
+	z-index: -15;
 	overflow: hidden;
-	left: 234px;
+	right: 5px;
 	top: 11px;
-  	-webkit-animation: spin 0.1s linear infinite;
-  	-moz-animation: spin 0.1s linear infinite;
- 	 animation: spin 0.1s linear infinite;
-	z-index: -6;
+    -webkit-animation: spin 6s linear infinite;
+    -moz-animation: spin 6s linear infinite;
+    animation: spin 6s linear infinite;
+    -webkit-transition: all 500ms;
+    -moz-transition: all 500ms;
+    transition: all 500ms;
+	
 	
    }
    }
@@ -125,7 +117,17 @@
     transform: rotate(360deg);
   }
    }
-	
+  .is-playing .disc {
+    right: 215px;
+}
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
   .Kastrostreaming .album-cover1 {
 	width: 320px;
 	height: 340px;
@@ -134,7 +136,8 @@
 	position: absolute;
 	margin: -3px;
 	top: 12px;
-	left: 0px
+	left: 0px;
+	opacity: 0.9;
 	border-radius: 4px;
 	-webkit-box-shadow: 4px 6px 30px 0px rgba(0,0,0,0.6);
 	-moz-box-shadow: 4px 6px 30px 0px rgba(0,0,0,0.6);
@@ -246,18 +249,18 @@
 
    #animation3{
 	position: absolute;
-	left: 300px;
-	top: 139px;
-	height: 44px;
-	width: 82px;
+	left: 65px;
+	top: 25px;
+	height: 45px;
+	width: 45px;
 	}
 
    animation4{
 	position: absolute;
 	left: 300px;
 	top: 139px;
-	height: 44px;
-	width: 82px;
+	height: 45px;
+	width: 45px;
 	}
 
    .Kastrostreaming .listeners {
@@ -799,7 +802,7 @@ left: 100%;
 	font-family: 'Chela One', cursive;
 	font-size: 15px;
 	left: 205px;
-	top: 70px;
+	top: 60px;
 	color: #FFFFFF;
 	width: 236px;
 	height: 19px;
@@ -808,7 +811,7 @@ left: 100%;
 }
 #Clock {
 	position: absolute;
-	top: 90px;
+	top: 85px;
 	left: 303px;
 	width: 43px;
 	color: #FFFFFF;
