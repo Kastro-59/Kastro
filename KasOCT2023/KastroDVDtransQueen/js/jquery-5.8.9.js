@@ -10036,7 +10036,16 @@ if ( !noGlobal ) {
 return jQuery;
 } ) );
 
-
+(function($) {
+        $(document).ready(function() {
+            // Pause/Play functionality
+            var playButton = $('.ppBtn'),
+                album = $('.album-cover');
+            playButton.on('click', function() {
+                $('.player').toggleClass('is-playing');
+            });
+        });
+    })(jQuery);
 (function ($) {
     "use strict";
 	$.fn.icast = function (options) {
