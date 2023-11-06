@@ -1,0 +1,532 @@
+.CompacCD .player-wpr {
+    max-width: 420px;
+    min-width: 321px;
+    height: 362px;
+    background-image:url();
+    font-family: 'Roboto Condensed', sans-serif;
+    text-shadow: 1px 1px 2px #000000;
+    position: relative;
+    margin: 0 auto;
+    border-radius: 0px;
+    overflow: hidden
+}
+.CompacCD .blur, .CompacCD .player-ctr {
+    height: 362px;
+    position: absolute;
+    top: 0
+}
+.CompacCD .player-ctr {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 10
+}
+.CompacCD .blur {
+    width: 420px;
+    background-size: cover;
+    z-index: 1
+}
+.CompacCD .album-cover-wpr {
+    width: 420px;
+    margin: 0 0px
+}
+.CompacCD .album-cover {
+    width: 420px;
+    height: 360px;
+    -webkit-mask-image: url();
+    mask-image-size: cover;
+    background: url(https://kastro-59.github.io/star/CD/Carcasa2023.png);
+    background-size: 100% 100%;
+    position: relative;
+    margin: 1px 1px 0;
+    border-radius: 0px;
+    z-index: 2
+}
+.tapa, .album-cover:before {
+    position: absolute;
+    width: 420px;
+    height: 362px;
+    margin: 0px 0px 0;
+    background: url(https://kastro-59.github.io/star/CD/Carcasa2023.png);
+    z-index: 3
+}
+.CompacCD .album-cover2 {
+    width: 343px;
+    height: 343px;
+    -webkit-mask-image: url(https://kastro-59.github.io/star/CD/q4wyeNb.png)center no-repeat;
+    mask-image-size: cover;
+    background: url(https://kastro-59.github.io/star/CD/q4wyeNb.png)center no-repeat;
+    position: absolute;
+    border-radius: 100%;
+    right: 23px;
+    top: 10px;
+    opacity: 0.3;
+    z-index: -1;
+    overflow: hidden;
+    -webkit-animation: spin 6s linear infinite;
+    -moz-animation: spin 6s linear infinite;
+    animation: spin 6s linear infinite;
+    -webkit-transition: all 500ms;
+    -moz-transition: all 500ms;
+    transition: all 500ms;
+}
+.is-playing .album-cover2 {
+    right: 475px;
+}
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+.vinyl {
+    width: 345px;
+    height: 345px;
+    -webkit-mask-image: url(https://kastro-59.github.io/star/CD/q4wyeNb.png)center no-repeat;
+    mask-image-size: cover;
+    background: url(https://kastro-59.github.io/star/CD/q4wyeNb.png)center no-repeat;
+    position: absolute;
+    border-radius: 100%;
+    right: 23px;
+    top: 9px;
+    opacity: 0.9;
+    z-index: -2;
+    overflow: hidden;
+    -webkit-animation: spin 4s linear infinite;
+    -moz-animation: spin 4s linear infinite;
+    animation: spin 4s linear infinite;
+    -webkit-transition: all 500ms;
+    -moz-transition: all 500ms;
+    transition: all 500ms;
+}
+.is-playing .vinyl {
+    right: 475px;
+}
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+.CompacCD .track-info-wpr {
+    max-width: 380px;
+    height: 33px;
+    box-sizing: border-box;
+    color: rgba(255, 255, 255, 1);
+    font-size: 22px;
+    text-align: center;
+    position: relative;
+    left: 30;
+    bottom: 150px;
+    margin: 8px 4px 0;
+    padding-top: 0px;
+    border-left: 1px solid rgba(255, 255, 255, .27);
+    border-right: 1px solid rgba(255, 255, 255, .27);
+    overflow: hidden;
+    z-index: 4
+}
+.CompacCD .track-info-ctr {
+    max-width: 100%;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden
+}
+.CompacCD .songtitle {
+    color: rgba(255, 255, 255, 1)
+}
+.CompacCD .artist-name {
+    color: rgba(255, 255, 255, 1)
+}
+.CompacCD .servertitle {
+    max-width: 400px;
+    font-size: 22px;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+    left: 20;
+    right: 0;
+    bottom: 300px;
+    margin: 0 auto
+}
+.CompacCD .listeners {
+    max-width: 100px;
+    font-size: 19px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 58px;
+    right: 50px
+}
+.CompacCD .history-artist-name, .CompacCD .history-songtitle {
+    max-width: 300px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.CompacCD .listeners:before {
+    content: "\f0c0";
+    font-size: 16px;
+    padding-right: 6px;
+    vertical-align: top
+}
+.CompacCD .ppBtn {
+	width: 28px;  
+	height: 28px;
+	background-position: center center;
+	position: absolute;
+	bottom: 23px;
+	left: 65px;
+	right: 20;
+	margin: 0px;
+	border: 4px solid #FFFFFF; /*=====Para cambiar el color del circulo del boton play y pause=======*/
+	border-radius: 50%;
+	cursor: pointer;
+	z-index: 12;
+}
+.CompacCD .play-btn {
+	background: url(https://kastro-59.github.io/repros/PLAY.png);
+	background-repeat: no-repeat;
+	background-position: center center;	
+	background-size: 35px 35px;
+	-webkit-transition: background 0.5s;
+	-moz-transition: background 0.5s; 
+    transition: background 0.5s;
+}
+.CompacCD .stop-btn {
+	background: url(https://kastro-59.github.io/repros/STOP.png);
+	background-repeat: no-repeat;
+	background-position: center center;	
+	background-size: 35px 35px;
+	-webkit-transition: background 0.5s;
+	-moz-transition: background 0.5s; 
+    transition: background 0.5s;
+}
+.CompacCD .icons-left, .CompacCD .icons-right {
+    width: 24px;
+    height: 24px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, .92);
+    cursor: pointer
+}
+.CompacCD .icons-left-wpr {
+    position: absolute;
+    bottom: 25px;
+    left: 6px;
+    z-index: 11
+}
+.CompacCD .icons-right-wpr {
+    text-align: left;
+    position: absolute;
+    bottom: 20px;
+    right: 126px;
+    z-index: 11
+}
+.CompacCD .icons-left {
+    text-align: center;
+    margin-right: 28px
+}
+.CompacCD .icons-right {
+    text-align: left;
+    margin-left: 28px
+}
+.CompacCD .icons-serverinfo:before {
+    content: "\f0c9"
+}
+.CompacCD .icons-history:before {
+    content: "\f1da"
+}
+.CompacCD .icons-share:before {
+    content: "\f1e0"
+}
+.CompacCD .icons-volume1:before {
+    content: "\f026"
+}
+.CompacCD .icons-volume2:before {
+    content: "\f027"
+}
+.CompacCD .icons-volume3:before, .CompacCD .icons-volumeM:before {
+    content: "\f028"
+}
+.CompacCD .icons-volumeM {
+    display: none
+}
+.CompacCD .icons-volumeM2:before {
+    content: "\f026"
+}
+.CompacCD .icons-close:before {
+    content: "\f00d"
+}
+.CompacCD .volume-slider {
+    position: absolute;
+    bottom: 27px;
+    right: 18px;
+    display: auto;
+    z-index: 10
+}
+.CompacCD input[type=range] {
+    width: 100px;
+    height: 6px;
+    background: 0 0;
+    padding: 6px 0;
+    transform: rotate(0deg);
+    transform-origin: bottom;
+    -webkit-appearance: none;
+    cursor: pointer
+}
+.CompacCD input[type=range]:focus {
+    outline: 0
+}
+.CompacCD input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 2px;
+    background: rgba(255, 255, 255, .34);
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+    animate: .2s
+}
+.CompacCD input[type=range]:focus::-webkit-slider-runnable-track {
+    background: rgba(255, 255, 255, .54)
+}
+.CompacCD input[type=range]::-webkit-slider-thumb {
+    width: 12px;
+    height: 12px;
+    background: #000;
+    margin-top: -5px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    -webkit-appearance: none
+}
+.CompacCD input[type=range]::-moz-range-track {
+    width: 100%;
+    height: 6px;
+    background: rgba(255, 255, 255, .54);
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+    animate: .2s
+}
+.CompacCD input[type=range]::-moz-range-thumb {
+    width: 6px;
+    height: 6px;
+    background: #ccc;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    cursor: pointer
+}
+@media all and (-ms-high-contrast:none), (-ms-high-contrast:active) {
+    .CompacCD input[type=range] {
+        width: 90px;
+        height: 16px;
+        background: 0 0;
+        margin-top: 0;
+        padding: 6px 0;
+        cursor: pointer
+    }
+}
+.CompacCD input[type=range]::-ms-tooltip {
+    display: none
+}
+.CompacCD input[type=range]::-ms-track {
+    width: 100%;
+    height: 6px;
+    background: 0 0;
+    color: transparent;
+    margin: 0;
+    padding: 0;
+    border: 0 transparent;
+    cursor: pointer;
+    animate: .2s
+}
+.CompacCD input[type=range]::-ms-fill-lower {
+    background: rgba(255, 255, 255, .54);
+    border: 0;
+    border-radius: 8px
+}
+.CompacCD input[type=range]::-ms-fill-upper {
+    background: rgba(255, 255, 255, .54);
+    border: 0;
+    border-radius: 8px
+}
+.CompacCD input[type=range]::-ms-thumb {
+    width: 6px;
+    height: 6px;
+    background: #ccc;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    cursor: pointer
+}
+.CompacCD input[type=range]:focus::-ms-fill-lower {
+    background: rgba(255, 255, 255, .54)
+}
+.CompacCD input[type=range]:focus::-ms-fill-upper {
+    background: rgba(255, 255, 255, .54)
+}
+.CompacCD .history-wpr {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 12px auto 0;
+    z-index: 15
+}
+.CompacCD .history-title {
+    font-size: 22px;
+    color: rgba(255, 255, 255, 1);
+    margin: 0 22px 15px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid rgba(255, 255, 255, .7)
+}
+.CompacCD .row-wpr {
+    height: 50px;
+    background-color: rgba(0, 0, 0, .2);
+    position: relative;
+    margin: 0 22px 5px;
+    border-radius: 5px
+}
+.CompacCD .history-cover {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 6px;
+    left: 8px;
+    border-radius: 50%
+}
+.history-track-info {
+    text-align: left;
+    padding-left: 55px;
+    padding-top: 5px
+}
+.CompacCD .rowNum, .CompacCD .social-share-wpr {
+    text-align: center;
+    position: absolute;
+    right: 0
+}
+.CompacCD .history-songtitle {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1)
+}
+.CompacCD .history-artist-name {
+    font-size: 14px;
+    color: rgba(255, 255, 255, .7)
+}
+.CompacCD .rowNum {
+    width: 38px;
+    height: 50px;
+    font-size: 42px;
+    color: rgba(255, 255, 255, .2);
+    top: 0
+}
+.CompacCD .social-share-wpr {
+    width: 100px;
+    height: 24px;
+    line-height: 24px;
+    bottom: 255px;
+    left: 0;
+    margin: 0 50px;
+    padding: 0px 0;
+    border-radius: 4px;
+    overflow: hidden;
+    display: auto;
+    z-index: 11
+}
+.CompacCD .social-link {
+    width: 24px;
+    height: 24px;
+    font-size: 20px;
+    color: #fff;
+    line-height: 24px;
+    text-decoration: none;
+    margin: 0 4px;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer
+}
+.CompacCD .social-link-facebook {
+    background: transparent
+}
+.CompacCD .social-link-facebook:before {
+    content: "\f39e"
+}
+.CompacCD .social-link-twitter {
+    background: transparent
+}
+.CompacCD .social-link-twitter:before {
+    content: "\f099"
+}
+.CompacCD .display {
+    display: block
+}
+.CompacCD .nodisplay {
+    display: none
+}
+@media only screen and (max-width:600px) {
+    .CompacCD .track-info-wpr {
+        margin: 28px 42px 0
+    }
+    .CompacCD .listeners {
+        max-width: 100px;
+        font-size: 12px;
+        color: rgba(255, 255, 255, .7);
+        position: absolute;
+        top: 32px;
+        right: 16px
+    }
+    .CompacCD .listeners:before {
+        content: "\f0c0";
+        font-size: 12px;
+        padding-right: 5px;
+        vertical-align: top
+    }
+}
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both
+}
+.marquee {
+    white-space: nowrap;
+    position: relative;
+    transform: translateX(-50%);
+    display: inline-block;
+    left: 50%;
+    padding-top: 0;
+    animation: linear infinite;
+    overflow: hidden;
+    text-align: left;
+    animation-duration: 10s;
+    animation-name: movement-smooth;
+    animation-direction: normal
+}
+.marquee:hover {
+    animation-play-state: paused
+}
+.marquee.marquee-speed-custom:before {
+    animation-duration: inherit
+}
+.marquee.marquee-speed-normal:before {
+    animation-duration: 10s
+}
+@keyframes movement-smooth {
+    from {
+        transform: translateX(0);
+        left: 100%
+    }
+    to {
+        transform: translateX(-100%);
+        left: 0
+    }
+}
+.marquee.marquee-movement-smooth:before {
+    animation-name: movement-smooth
+}
+.marquee.marquee-direction-left:before, .marquee.marquee-direction-normal:before {
+    animation-direction: normal
+}
