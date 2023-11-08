@@ -250,10 +250,10 @@
 
    #animation3{
 	position: absolute;
-	left: 225px;
-	top: 105px;
+	left: 35px;
+	top: 35px;
 	height: 33px;
-	width: 61px;
+	width: 33px;
 	}
 
    animation4{
@@ -265,31 +265,31 @@
 	}
 
    .Kastrostreaming .listeners {
-	max-width: 197px;
-	font-size: 20px;
+	max-width: 100px;
+	font-size: 17px;
 	color: rgba(255,0,24,1);
 	position: absolute;
 	transform: rotate(360deg);
-	top: 20px;
-	left: 95px; 
+	top: 90px;
+	left: 35px; 
 	width: 100px;
 	height: 18px;
 	z-index: 2;
    }
    .Kastrostreaming .listeners:before {
-	content:url(https://kastro-59.github.io/star/CD/iDtRMMV.png);
+	content:url(https://kastro-59.github.io/star/CD/iDtRMMVV.png);
 	font-size: 12px;
 	padding-right: 5px;
 	vertical-align: top;
 	font: 'Reem Kufi', sans-serif;
    }
    .Kastrostreaming .ppBtn {
-	width: 22px;  
-	height: 22px;
+	width: 18px;  
+	height: 18px;
 	background-position: center center;
 	position: absolute;
-	bottom: 190px;
-	left: 40px;
+	bottom: 195px;
+	left: 32px;
 	right: 10;
 	margin: 0px;
 	border: 3px solid #FFFFFF; /*=====Para cambiar el color del circulo del boton play y pause=======*/
@@ -299,8 +299,8 @@
    }
    .Kastrostreaming .ppBtn:before {
 	content: "";
-	width: 22px;
-	height: 22px;
+	width: 18px;
+	height: 18px;
 	background-color: rgba(0,0,0,0.3); /*=====Para aclarar u obscurecer el boton de play y stop=======*/
 	position: absolute;
 	top: 0px;
@@ -315,7 +315,7 @@
 	background: url(https://kastro-59.github.io/repros/PLAY.png);
 	background-repeat: no-repeat;
 	background-position: center center;	
-	background-size: 27px 27px;
+	background-size: 23px 23px;
 	-webkit-transition: background 0.5s;
 	-moz-transition: background 0.5s; 
     transition: background 0.5s;
@@ -324,7 +324,7 @@
 	background: url(https://kastro-59.github.io/repros/STOP.png);
 	background-repeat: no-repeat;
 	background-position: center center;	
-	background-size: 27px 27px;
+	background-size: 23px 23px;
 	-webkit-transition: background 0.5s;
 	-moz-transition: background 0.5s; 
     transition: background 0.5s;
@@ -399,8 +399,8 @@
    .Kastrostreaming .volume-slider {
 	position: absolute;
 	transform: rotate(135deg);
-	bottom: 55px;                         /*=====Para modificar altura de la barra de volumen=======*/
-	right: 265px;
+	bottom: 58px;                         /*=====Para modificar altura de la barra de volumen=======*/
+	right: 282px;
 	display: auto;
 	z-index: 10;
 	box-shadow: 0 0 2px #FFFFFF,
@@ -800,9 +800,9 @@ left: 100%;
 .data {
 	position: absolute;
 	font-family: 'Chela One', cursive;
-	font-size: 15px;
-	left: 55px;
-	top: 65px;
+	font-size: 13px;
+	left: 160px;
+	top: 32px;
 	color: #FFFFFF;
 	width: 180px;
 	height: 15px;
@@ -811,10 +811,10 @@ left: 100%;
 }
 #Clock {
 	position: absolute;
-	top: 90px;
-	left: 95px;
+	top: 50px;
+	left: 230px;
 	width: 170px;
 	color: #FFFFFF;
 	font-family: 'Chela One', cursive;
-	font-size: 15px;
+	font-size: 13px;
 }
