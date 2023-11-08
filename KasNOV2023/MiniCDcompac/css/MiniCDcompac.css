@@ -319,6 +319,7 @@
 	-webkit-transition: background 0.5s;
 	-moz-transition: background 0.5s; 
     transition: background 0.5s;
+    cursor: url(https://kastro-59.github.io/star/CD/YATfaoA.png), auto;
    }
    .Kastrostreaming .stop-btn {
 	background: url(https://kastro-59.github.io/repros/STOP.png);
@@ -328,6 +329,7 @@
 	-webkit-transition: background 0.5s;
 	-moz-transition: background 0.5s; 
     transition: background 0.5s;
+    cursor: url(https://kastro-59.github.io/star/CD/YATfaoA.png), auto;
    }
 
    .Kastrostreaming .icons-left-serv {
