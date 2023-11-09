@@ -183,14 +183,14 @@
 	}
 
 	.Kastrostreaming .track-info-serv {
-	width: 360px;                  
+	width: 325px;                  
 	height: 26px;
 	box-sizing: border-box;
 	color: rgba(255,255,255,1);
 	font-size: 18px;
 	text-align: center;
 	position: absolute;
-	left: 41px;
+	left: 55px;
 	margin-top: 160px;
 	padding-top: 3px;
 	border-left: 1px solid rgba(255,255,255,.);
@@ -208,14 +208,14 @@
    }
    .Kastrostreaming .songtitle {
 	font-size: 1.0em;
-    font-weight: 400;
+    font-weight: 500;
     color: #FFFFFF;
 	text-transform: uppercase;
     font-family: 'Reem Kufi', sans-serif;
    }
    .Kastrostreaming .artist-name {
 	font-size: 1.0em;
-    font-weight: 400;
+    font-weight: 500;
     color: #FFFFFF;
 	text-transform: uppercase;
     font-family: 'Reem Kufi', sans-serif;
@@ -223,6 +223,7 @@
    .Kastrostreaming .servertitle-1 {
 	max-width: 600px;
 	font-size: 16px;
+	font-weight: 400;
 	color: #72FF50;
 	text-align: center;
 	position: absolute;
@@ -270,10 +271,11 @@
    .Kastrostreaming .listeners {
 	max-width: 250px;
 	font-size: 17px;
+	font-weight: 400;
 	color: rgba(255,0,24,1);
 	position: absolute;
 	transform: rotate(360deg);
-	top: 80px;
+	top: 78px;
 	left: 200px; 
 	width: 107px;
 	height: 18px;
@@ -283,6 +285,7 @@
 	content:url(https://kastro-59.github.io/star/CD/iDtRMMV.png);
 	font-size: 15px;
 	padding-right: 6px;
+	opacity: 0.8;
 	vertical-align: top;
 	font: 'Reem Kufi', sans-serif;
    }
@@ -805,8 +808,9 @@ left: 100%;
 	position: absolute;
 	font-family: 'Chela One', cursive;
 	font-size: 15px;
+	font-weight: 400;
 	left: 215px;
-	top: 60px;
+	top: 58px;
 	color: #72FF50;
 	width: 236px;
 	height: 19px;
@@ -818,7 +822,8 @@ left: 100%;
 	top: 82px;
 	left: 313px;
 	width: 43px;
-	color: rgba(255,0,24,1);
+	color: #72FF50;
 	font-family: 'Chela One', cursive;
+	font-weight: 400;
 	font-size: 15px;
 }
