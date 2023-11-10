@@ -220,13 +220,13 @@
    }
    .Kastrostreaming .servertitle {
 	max-width: 600px;
-	font-size: 13px;
+	font-size: 20px;
 	color: #72FF50;
 	text-align: center;
 	position: absolute;
-	left: 208px;
+	left: 100px;
 	right: 0;
-	bottom: 226px;
+	bottom: 400px;
 	margin: 0px;
 	font-family: 'Reem Kufi', sans-serif;
 	width: 240px;
@@ -237,7 +237,7 @@
    #animation{
 	position: absolute;
 	left: 150px;
-	top: 300px;
+	top: 310px;
 	height: 120px;
 	width: 56px;
 	}
@@ -345,8 +345,8 @@
 	text-align: left;        
 	position: absolute;
 	bottom: 298px;
-	right: 138px;
-	top: 261px;
+	right: 128px;
+	top: 245px;
 	z-index: 11;
 	width: 7px;
 	height: 23px;
@@ -366,7 +366,7 @@
 	font-size: 24px;
 	color: rgba(127, 255, 0,.9);
 	text-align: left;
-	margin-left: -400px;
+	margin-left: -350px;
 	cursor: pointer;
    }
    .Kastrostreaming .icons-serverinfo:before {
@@ -402,8 +402,8 @@
    .Kastrostreaming .volume-slider {
 	position: absolute;
 	transform: rotate(135deg);
-	bottom: 80px;          
-	right: 370px;
+	bottom: 90px;          
+	right: 320px;
 	display: auto;
 	z-index: 10;
 	box-shadow: 0 0 1px #FFFFFF,
@@ -804,6 +804,7 @@ left: 100%;
 	position: absolute;
 	font-family: 'Chela One', cursive;
 	font-size: 15px;
+	font-weight: 400;
 	left: 205px;
 	top: 60px;
 	color: #FFFFFF;
@@ -820,4 +821,5 @@ left: 100%;
 	color: #FFFFFF;
 	font-family: 'Chela One', cursive;
 	font-size: 15px;
+	font-weight: 400;
 }
