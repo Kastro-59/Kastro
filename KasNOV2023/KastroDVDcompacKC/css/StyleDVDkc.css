@@ -197,7 +197,7 @@
 	border-right: 1px solid rgba(255,255,255,.);
 	overflow: hidden;
 	z-index: 4;
-	top: 125px;
+	top: 129px;
    }
 
    .Kastrostreaming .track-info-ctr {
@@ -811,7 +811,7 @@ left: 100%;
 	font-weight: 400;
 	left: 215px;
 	top: 58px;
-	color: #72FF50;
+	color: #FFFFFF;
 	width: 236px;
 	height: 19px;
 	z-index: 16;
@@ -822,7 +822,7 @@ left: 100%;
 	top: 82px;
 	left: 313px;
 	width: 43px;
-	color: #72FF50;
+	color: #FFFFFF;
 	font-family: 'Chela One', cursive;
 	font-weight: 400;
 	font-size: 15px;
