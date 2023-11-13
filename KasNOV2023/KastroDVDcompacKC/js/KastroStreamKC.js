@@ -1,4 +1,4 @@
 $("#stream1").icast({
-URL: "https://streamssl.eu:2330",
+URL: "https://ssl.ndvendas.eu:7078",
 version: "2",
 })
