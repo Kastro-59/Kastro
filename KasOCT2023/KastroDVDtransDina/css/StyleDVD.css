@@ -74,7 +74,7 @@
 	
    }
    .is-playing .album-cover {
-    right: 675px;
+    right: -1200px;
 }
 @-webkit-keyframes spin {
     0% {
@@ -123,7 +123,7 @@
   }
    }
   .is-playing .disc {
-    right: 675px;
+    right: -1200px;
 }
 @-webkit-keyframes spin {
     0% {
@@ -208,34 +208,34 @@
    }
    .Kastrostreaming .songtitle {
 	font-size: 1.0em;
-    font-weight: 400;
+    font-weight: 500;
     color: #FFFFFF;
 	text-transform: uppercase;
     font-family: 'Reem Kufi', sans-serif;
    }
    .Kastrostreaming .artist-name {
 	font-size: 1.0em;
-    font-weight: 400;
+    font-weight: 500;
     color: #FFFFFF;
 	text-transform: uppercase;
     font-family: 'Reem Kufi', sans-serif;
    }
-   .Kastrostreaming .servertitle {
+   .Kastrostreaming .servertitle-1 {
 	max-width: 600px;
-	font-size: 13px;
+	font-size: 16px;
+	font-weight: 400;
 	color: #72FF50;
 	text-align: center;
 	position: absolute;
 	left: 208px;
 	right: 0;
-	bottom: 226px;
+	bottom: 229px;
 	margin: 0px;
 	font-family: 'Reem Kufi', sans-serif;
 	width: 240px;
 	height: 43px;
 	z-index: 1;
    }
-
    #animation{
 	position: absolute;
 	left: 150px;
@@ -270,7 +270,8 @@
 
    .Kastrostreaming .listeners {
 	max-width: 250px;
-	font-size: 18px;
+	font-size: 17px;
+	font-weight: 400;
 	color: rgba(255,0,24,1);
 	position: absolute;
 	transform: rotate(360deg);
@@ -284,6 +285,7 @@
 	content:url(https://kastro-59.github.io/star/CD/iDtRMMV.png);
 	font-size: 15px;
 	padding-right: 6px;
+	opacity: 0.8;
 	vertical-align: top;
 	font: 'Reem Kufi', sans-serif;
    }
