@@ -208,34 +208,34 @@
    }
    .Kastrostreaming .songtitle {
 	font-size: 1.0em;
-    font-weight: 500;
+    font-weight: 400;
     color: #FFFFFF;
 	text-transform: uppercase;
     font-family: 'Reem Kufi', sans-serif;
    }
    .Kastrostreaming .artist-name {
 	font-size: 1.0em;
-    font-weight: 500;
+    font-weight: 400;
     color: #FFFFFF;
 	text-transform: uppercase;
     font-family: 'Reem Kufi', sans-serif;
    }
    .Kastrostreaming .servertitle-1 {
-	max-width: 600px;
-	font-size: 16px;
-	font-weight: 400;
+	max-width: 300px;
+	font-size: 20px;
 	color: #72FF50;
 	text-align: center;
 	position: absolute;
-	left: 208px;
+	left: 100px;
 	right: 0;
-	bottom: 229px;
+	bottom: 380px;
 	margin: 0px;
 	font-family: 'Reem Kufi', sans-serif;
 	width: 240px;
 	height: 43px;
 	z-index: 1;
    }
+
    #animation{
 	position: absolute;
 	left: 150px;
@@ -270,22 +270,23 @@
 
    .Kastrostreaming .listeners {
 	max-width: 250px;
-	font-size: 17px;
+	font-size: 15px;
 	font-weight: 400;
-	color: rgba(255,0,24,1);
+	color: #FFFFFF;
 	position: absolute;
 	transform: rotate(360deg);
-	top: 20px;
-	left: 155px; 
+	top: 55px;
+	left: 240px; 
 	width: 107px;
 	height: 18px;
 	z-index: 2;
    }
    .Kastrostreaming .listeners:before {
-	content:url(https://kastro-59.github.io/star/CD/iDtRMMV.png);
-	font-size: 15px;
+	content:"En Linea";
+	color: #FFFFFF;
+	font-size: 16px;
+	font-weight: 400;
 	padding-right: 6px;
-	opacity: 0.8;
 	vertical-align: top;
 	font: 'Reem Kufi', sans-serif;
    }
@@ -806,11 +807,11 @@ left: 100%;
 }
 .data {
 	position: absolute;
-	font-family: 'Chela One', cursive;
-	font-size: 15px;
+	font-family: 'Reem Kufi', sans-serif;
+	font-size: 16px;
 	font-weight: 400;
-	left: 215px;
-	top: 58px;
+	left: 205px;
+	top: 83px;
 	color: #FFFFFF;
 	width: 236px;
 	height: 19px;
@@ -819,11 +820,11 @@ left: 100%;
 }
 #Clock {
 	position: absolute;
-	top: 82px;
-	left: 313px;
+	top: 326px;
+	left: 286px;
 	width: 43px;
-	color: #FFFFFF;
-	font-family: 'Chela One', cursive;
-	font-weight: 400;
-	font-size: 15px;
+	color: #72FF50;
+	font-family: 'Reem Kufi', sans-serif;
+	font-weight: 500;
+	font-size: 20px;
 }
