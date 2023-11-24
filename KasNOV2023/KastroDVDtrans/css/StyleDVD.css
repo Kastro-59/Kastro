@@ -142,7 +142,7 @@
 	margin: -3px;
 	top: 12px;
 	left: 0px;
-	opacity: 0.9;
+	opacity: 1;
 	border-radius: 4px;
 	-webkit-box-shadow: 4px 6px 30px 0px rgba(0,0,0,0.6);
 	-moz-box-shadow: 4px 6px 30px 0px rgba(0,0,0,0.6);
@@ -209,26 +209,26 @@
    .Kastrostreaming .songtitle {
 	font-size: 1.0em;
     font-weight: 400;
-    color: #FFFFFF;
+    color: #72FF50;
 	text-transform: uppercase;
     font-family: 'Reem Kufi', sans-serif;
    }
    .Kastrostreaming .artist-name {
 	font-size: 1.0em;
     font-weight: 400;
-    color: #FFFFFF;
+    color: #72FF50;
 	text-transform: uppercase;
     font-family: 'Reem Kufi', sans-serif;
    }
    .Kastrostreaming .servertitle {
 	max-width: 300px;
-	font-size: 20px;
-	color: #72FF50;
+	font-size: 18px;
+	color: #000000;
 	text-align: center;
 	position: absolute;
-	left: 100px;
+	left: 10px;
 	right: 0;
-	bottom: 540px;
+	bottom: 317px;
 	margin: 0px;
 	font-family: 'Reem Kufi', sans-serif;
 	width: 240px;
@@ -238,9 +238,9 @@
 
    #animation{
 	position: absolute;
-	left: 150px;
-	top: 300px;
-	height: 120px;
+	left: 140px;
+	top: 310px;
+	height: 125px;
 	width: 56px;
 	}
 
@@ -271,11 +271,11 @@
    .Kastrostreaming .listeners {
 	max-width: 250px;
 	font-size: 15px;
-	font-weight: 400;
-	color: #FFFFFF;
+	font-weight: 600;
+	color: #000000;
 	position: absolute;
 	transform: rotate(360deg);
-	top: 55px;
+	top: 57px;
 	left: 240px; 
 	width: 107px;
 	height: 18px;
@@ -283,9 +283,9 @@
    }
    .Kastrostreaming .listeners:before {
 	content:"En Linea";
-	color: #FFFFFF;
-	font-size: 16px;
-	font-weight: 400;
+	color: #000000;
+	font-size: 15px;
+	font-weight: 600;
 	padding-right: 6px;
 	vertical-align: top;
 	font: 'Reem Kufi', sans-serif;
@@ -308,7 +308,7 @@
 	content: "";
 	width: 28px;
 	height: 28px;
-	background-color: rgba(0,0,0,0.3); /*=====Para aclarar u obscurecer el boton de play y stop=======*/
+	background-color: rgba(0,0,0,0.3); /*=====Para aclarar o oscurecer el boton de play y stop=======*/
 	position: absolute;
 	top: 0px;
 	left: 0px;
@@ -339,19 +339,19 @@
     cursor: url(https://kastro-59.github.io/star/CD/YATfaoA.png), auto;
    }
    .Kastrostreaming .icons-left-serv {
-	position: absolute;
-	bottom: 310px;
-	left: 550px;            
-	width: 35px;
-	height: 25px;
+	position: absolute;                 /*=====Para modificar posicion boton historia=======*/
+	bottom: 65px;
+	left: 19px;            
+	width: 30px;
+	height: 30px;
 	z-index: 11;
    }
-   .Kastrostreaming .icons-right-serv {
+   .Kastrostreaming .icons-right-serv {       
 	text-align: left;        
 	position: absolute;
 	bottom: 298px;
 	right: 138px;
-	top: 261px;
+	top: 262px;                        /*=====Para modificar posicion boton volumen=======*/
 	z-index: 11;
 	width: 7px;
 	height: 23px;
@@ -407,8 +407,8 @@
    .Kastrostreaming .volume-slider {
 	position: absolute;
 	transform: rotate(135deg);
-	bottom: 80px;          
-	right: 370px;
+	bottom: 73px;                                /*=====Para modificar posicion barra volumen=======*/
+	right: 377px;
 	display: auto;
 	z-index: 10;
 	box-shadow: 0 0 1px #FFFFFF,
@@ -812,7 +812,7 @@ left: 100%;
 	font-weight: 400;
 	left: 205px;
 	top: 83px;
-	color: #FFFFFF;
+	color: #72FF50;
 	width: 236px;
 	height: 19px;
 	z-index: 16;
