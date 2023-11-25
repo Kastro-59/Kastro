@@ -8,7 +8,7 @@
   fontratio: "0.5",
   radioname: "Radio KAS",
   scroll: "false",
-  coverimage: "fake",
+  coverimage: "false",
   usevisualizer: "fake",
   coverstyle: "animated",
   visualizertype: "7",
