@@ -1,4 +1,4 @@
 $("#stream1").icast({
-URL: "https://mx.hdaudiostreaming.com:8342",
+URL: "https://technoplayerserver.net:8188",
 version: "2",
 })
