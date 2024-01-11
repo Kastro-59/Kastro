@@ -1,4 +1,4 @@
 $("#stream1").icast({
-URL: "https://technoplayerserver.net:8188",
+URL: "https://streamssl.eu:2330",
 version: "2",
 })
