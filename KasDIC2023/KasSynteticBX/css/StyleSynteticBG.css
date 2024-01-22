@@ -70,7 +70,7 @@
 	
    }
    .is-playing .album-cover {
-    right: -1300px;
+    right: 200px;
 }
 @-webkit-keyframes spin {
     0% {
@@ -119,7 +119,7 @@
   }
    }
   .is-playing .disc {
-    right: -1300px;
+    right: 200px;
 }
 @-webkit-keyframes spin {
     0% {
