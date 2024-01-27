@@ -52,14 +52,14 @@
 	background: url(https://kastro-59.github.io/star/CD/q4wyeNb.png)center no-repeat;
 	background-size: cover;
 	position: absolute;
-	opacity: 0.3;
+	opacity: 0.2;
 	border-radius: 100%;
 	-webkit-box-shadow: 1px 2px 15px 0px rgba();
 	-moz-box-shadow: 1px 2px 15px 0px rgba();
 	box-shadow: 1px 2px 15px 0px rgba();
 	z-index: -9;
 	overflow: hidden;
-	right: -75px;    /*=====Para cambiar la posicion del Disco=======*/
+	right: -55px;    /*=====Para cambiar la posicion del Disco=======*/
 	top: 54px;
 	    -webkit-animation: spin 6s linear infinite;
     -moz-animation: spin 6s linear infinite;
@@ -86,14 +86,14 @@
   background: url(https://kastro-59.github.io/star/CD/q4wyeNb.png)center no-repeat;
   background-size: cover;
   position: absolute;
-  opacity: 0.9;
+  opacity: 0.7;
   z-index: -10;
   overflow: hidden;
-  right: -75px;    /*=====Para cambiar la posicion del Disco=======*/
+  right: -55px;    /*=====Para cambiar la posicion del Disco=======*/
   top: 52px;
-    -webkit-animation: spin 4s linear infinite;
-    -moz-animation: spin 4s linear infinite;
-    animation: spin 4s linear infinite;
+    -webkit-animation: spin 3s linear infinite;
+    -moz-animation: spin 3s linear infinite;
+    animation: spin 3s linear infinite;
     -webkit-transition: all 500ms;
     -moz-transition: all 500ms;
     transition: all 500ms;
@@ -136,7 +136,7 @@
 	background:url(https://i.imgur.com/9ZTfQO4.gif) center no-repeat ;
 	background-size: cover;
 	position: absolute;
-	opacity: 0.9;
+	opacity: 1.6;
 	margin: -1px;
 	top: 52px;
 	left: 0px;
