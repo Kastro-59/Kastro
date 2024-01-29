@@ -1,4 +1,4 @@
 $("#stream1").icast({
-URL: "https://app.sonicpanelradio.com:8130",
+URL: "https://technoplayerserver.net:8092",
 version: "2",
 })
