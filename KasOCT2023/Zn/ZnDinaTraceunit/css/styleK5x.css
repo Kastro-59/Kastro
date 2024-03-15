@@ -181,6 +181,7 @@ width: 134px;
 .info-current-song {
     font-family: 'Poppins', sans-serif;
     text-align: center;
+    display:none!important 	
 }
 
 .info-current-song h2 {
