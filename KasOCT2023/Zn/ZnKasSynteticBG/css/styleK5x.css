@@ -197,6 +197,7 @@ body {
 .info-current-song {
     font-family: 'Poppins', sans-serif;
     text-align: left;
+    display:none!important 	
 }
 
 .info-current-song h2 {
